@@ -1,0 +1,56 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial scale="1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <button id="open-sidebar" onclick="openSidebar()"
+        aria-label="open sidebar"><img src="assets/icons/bars-red.svg" alt="" width="24px" height="24px"></button>
+        <nav id="navbar">
+            <ul>
+                <li><button id="close-sidebar" 
+                    aria-label="close sidebar" onclick="closeSidebar()"><img src="assets/icons/xmark-solid.svg" alt="" width="24px" height="24px"></button></li>
+                <li class="home-li"><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a class="accent, active" href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div id="overlay"></div>
+        <main>
+            <section class="contact">
+                <div class="container">
+                    <h2>Contact Me</h2>
+                    <div class="contact-wrapper">
+                        <div class="contact-form">
+                            <h3>Send me a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="" placeholder="Enter Message"></textarea>
+                            </div>
+                                <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i><img src="assets/icons/phone-solid.svg" width="20px"></i>+263 71 800 9817</p>
+                        <p><i><img src="assets/icons/envelope-solid.svg" width="20px" alt=""></i>pjellevenhimself@gmail.com</p>
+                        <p><i><img src="assets/icons/location-dot-solid.svg"width="20px" alt=""></i>13 Belleview Avenue, Chinhoyi, Zimbabwe</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>

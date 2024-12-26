@@ -1,0 +1,24 @@
+.table{
+    border-collapse: collapse;
+    box-shadow: 0 0 10px crimson;
+    overflow: hidden;
+}
+.table thead{
+    background-color: black;
+    color: crimson;
+}
+.table th, .table td{
+    padding: 15px;
+    text-align: left;
+    border: 1px solid plum;
+}
+
+.table th{
+    font-weight: bold;
+}
+.table tr:nth-child(n+1):nth-child(4n){
+    background-color: black;
+}
+.table tr:hover{
+    color: crimson;
+}

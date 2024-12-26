@@ -1,0 +1,65 @@
+
+
+            <div class="intro">
+                <h1>Hi, It's <span>Phillip</span></h1>
+                <h3>I'm a</h3>
+                <p>Graphics designer capable of performing various web operations including web development and copywriting. I offer
+                    services though my <a href="www.fiver.com">Fiver Account</a>              
+                </p>
+                <p>I specialize in web development and graphics design (photo and video editing)</p>
+                <p>I have been working on game development in GD script for some time so making small scale 
+                    2d games is not going to be an issue. I look forward to adding game development to my fiverr page soon.
+                </p>
+                <h2></h2>
+            </div>
+
+
+
+            
+
+.typing-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+.typing-text span{
+    position: relative;
+}
+
+.typing-text span::before{
+    content: "Graphics Designer";
+    color: crimson;
+    animation: words 20s infinite;
+}
+.typing-text span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    border-left: 3px solid crimson right;
+    right: -8;
+    animation: cursor .6s infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 3px solid crimson;
+    }
+}
+@keyframes words{
+    0%, 20%{
+       content: "Web Developer"
+    }
+    21%, 40%{
+        content: "Web Developer"
+     }
+     41%, 60%{
+        content: "Web Developer"
+     }
+     61%, 80%{
+        content: "Web Developer"
+     }
+     81%, 100%{
+        content: "Web Developer"
+     }
+}

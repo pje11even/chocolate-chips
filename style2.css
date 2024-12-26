@@ -1,0 +1,73 @@
+header .intro h1{
+    font-size: 60px;
+    margin-top: 2rem;
+    text-align: center;
+}
+header .intro h3{
+    font-size: 60px;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: auto;
+}
+
+header .intro p{
+    color: palevioletred;
+    font-size: large;
+}
+span{
+    color: red;
+}
+
+section{
+    min-height: 100vh;
+}
+
+.homex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.homex .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.homex .home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.homex img{
+    border-radius: 50%;
+}
+ 
+.home-img img{
+    position: relative;
+    width: 32vh;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-shadow: 0 0 25px solid crimson;
+    cursor: pointer;
+    transition: .2S linear;
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+    border: 10px solid blueviolet;
+}
+
+
+
+main{
+    padding: min(5em, 7%);
+}
+main p{
+    margin-top: .35em;
+}
+h1,h2,h3{
+    cursor: default;
+}
